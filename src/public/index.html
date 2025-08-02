@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechStore - Tienda de Computadoras</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <div class="logo">
+        <h1>CRONOS SRL</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" aria-current="page">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        &#9776;
+      </button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Las mejores computadoras para ti</h2>
+        <p>Calidad, rendimiento y tecnología al alcance de tu mano.</p>
+        <a href="#productos" class="btn-primary">Ver Productos</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80" alt="Computadora moderna" />
+      </div>
+    </section>
+
+    <section id="productos" class="products">
+      <h3>Productos Destacados</h3>
+      <div class="product-list">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1587202372775-3a0b44e12216?auto=format&fit=crop&w=400&q=80" alt="Laptop Gamer" />
+          <h4>Laptop Gamer X100</h4>
+          <p class="price">$1,299</p>
+          <p>Procesador Intel i7, 16GB RAM, NVIDIA RTX 3060</p>
+          <a href="#" class="btn-secondary">Comprar</a>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="PC de Escritorio" />
+          <h4>PC Escritorio Pro</h4>
+          <p class="price">$899</p>
+          <p>AMD Ryzen 5, 16GB RAM, SSD 512GB</p>
+          <a href="#" class="btn-secondary">Comprar</a>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Monitor LED" />
+          <h4>Monitor LED 27”</h4>
+          <p class="price">$249</p>
+          <p>Resolución Full HD, 75Hz, panel IPS</p>
+          <a href="#" class="btn-secondary">Comprar</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 TechStore. Todos los derechos reservados.</p>
+      <p>
+        <a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

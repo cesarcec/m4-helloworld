@@ -1,0 +1,17 @@
+{
+  "name": "my-nodejs-webpage",
+  "version": "1.0.0",
+  "description": "A simple Node.js webpage without a database or CRUD operations.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+  "dev": "nodemon src/app.js"
+
+
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
